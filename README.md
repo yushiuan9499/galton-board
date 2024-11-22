@@ -2,14 +2,17 @@
 ## 製作動機
 陳昭羽教授曾說過，他希望有人能夠做出一個巨大的Galton board，讓大家可以丟蘋果進去。然而因為我的能力與財力不足，無法做出如此巨大的Galton board，所以我決定改成做電腦遊戲，讓大家無論身處何處都能夠體驗丟蘋果、玩Galton board的樂趣。
 ## 安裝方法
-    1. 請先安裝Python。[下載連結](https://www.python.org/downloads/)
-    2. 下載本專案，包含main.py、requirements.txt、voice/、image/。
-    3. 安裝必要的套件
-        ```bash
-            pip install -r requirements.txt
-        ```
-    4. 執行main.py
-    5. 接著就能夠開始玩了！
+1. 請先安裝Python。[下載連結](https://www.python.org/downloads/)
+2. 下載本專案，包含main.py、requirements.txt、voice/、image/。
+3. 安裝必要的套件
+    ```bash
+        pip install -r requirements.txt
+    ```
+4. 執行main.py
+5. 接著就能夠開始玩了！
+## 遊玩方法
+1. 方向鍵：控制玩家左右移動
+2. 空白鍵：丟下蘋果
 ## 一些可能的問題
 - 在下面的位置報錯
     ```python
