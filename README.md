@@ -6,7 +6,7 @@
 2. 下載本專案，包含main.py、requirements.txt、voice/、image/。
 3. 安裝必要的套件
     ```bash
-        pip install -r requirements.txt
+    pip install -r requirements.txt
     ```
 4. 執行main.py
 5. 接著就能夠開始玩了！
@@ -19,7 +19,7 @@
     import ctypes
     ctypes.windll.user32.SetProcessDPIAware()
     ```
-    解決方法：將這兩行刪掉。因為我的win11有一些問題，所以我加上這兩行，但是可能會導致作業系統報錯。
+    解決方法：將這兩行刪掉。因為我的win11有一些問題，所以我加上這兩行。但是可能會導致其他的作業系統報錯。
 - 畫面太小或是太大
     解決方法：
     ```python
